@@ -1,0 +1,23 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 111, in script
+    while (count =< 31):
+SyntaxError: invalid syntax (game/script.rpy, line 111)
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 111, in script
+    while (count =< 31):
+  File "C:\Users\cryst\Downloads\renpy-6.99.14-sdk\renpy\ast.py", line 1645, in execute
+    if renpy.python.py_eval(self.condition):
+  File "C:\Users\cryst\Downloads\renpy-6.99.14-sdk\renpy\python.py", line 1833, in py_eval
+    code = py_compile(code, 'eval')
+  File "C:\Users\cryst\Downloads\renpy-6.99.14-sdk\renpy\python.py", line 630, in py_compile
+    raise e
+SyntaxError: invalid syntax (game/script.rpy, line 111)
+
+Windows-8-6.2.9200
+Ren'Py 6.99.14.3135
+Game 1.0
